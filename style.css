@@ -9,26 +9,31 @@ body{
     background-image: url('imagens/background.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
+    height: 98.5vh;
+    width: 98vw;
 
 }
 .botao{
     width: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 10px;
     padding: 10px;
 }
-.cards{
-    max-width: 300px;
-    max-height: 450px;
+.container{
+    position: relative;
+    width: 300px;
+    height: 450px;
     border-radius: 10px;
     background-color: aliceblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.imagem-heroi{
+    position: absolute;
+    background-color: blueviolet;
+    width: 250px;
+    height: 400px;
+
 
 }
